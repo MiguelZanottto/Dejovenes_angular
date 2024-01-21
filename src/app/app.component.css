@@ -1,0 +1,70 @@
+#contenedorTotal{
+    width: 40%;
+    text-align: left;
+    font-size: larger;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border: 5px solid rgb(41, 41, 174);
+    border-radius: 20px;
+    background-color: #B7D968;
+    text-align: center;
+    min-width: 350px;
+}
+
+body{
+    background-color: #d3eb9a;
+}
+
+label{
+    font-weight: bolder;
+}
+
+.contenedor{
+    padding: 5px;
+}
+
+.obligatorio{
+    color: red;
+    display: none;
+}
+
+p{
+    font-size: medium;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+}
+input[type="text"]{
+    width: 300px;
+    border: 3px green solid;
+    border-radius: 16px;
+    height: 20px;
+}
+
+select{
+    width: 150px;
+    text-align: center;
+}
+
+button{
+    border-radius: 16px;
+    padding: 7px;
+    margin: 7px;
+    color: black;
+    font-weight: bolder;
+    border: 3px green solid;
+}
+
+
+#imagen{
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+p{
+    color: red;
+}
