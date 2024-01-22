@@ -55,8 +55,21 @@ export class AppComponent {
   }
 
   submit(){
+    let mens : string = "";
     if(this.formularioRegistro.valid){
-      alert("Todos los datos son válidos")
+      mens += `Nombre: ${this.formularioRegistro.value.nombre}\n`
+      mens += `Apellidos: ${this.formularioRegistro.value.apellidos}\n`
+      mens += `DNI: ${this.formularioRegistro.value.dni}\n`
+      mens += `Email: ${this.formularioRegistro.value.email}\n`
+      mens += `Fecha Nacimiento: ${this.formularioRegistro.value.fecha}\n`
+      mens += `Sexo: ${this.formularioRegistro.value.sexo}\n`
+      mens += `Imagen DNI: ${this.formularioRegistro.value.subirDNI}\n`
+      mens += `Intereses: ${this.formularioRegistro.value.intereses}\n`
+      mens += `Codigo postal: ${this.formularioRegistro.value.intereses}\n`
+      mens += `Provincia: ${this.provincia}\n`
+      mens += `Situacion actual: ${this.formularioRegistro.value.situacionActual}\n`
+      mens += `Condiciones: Aceptadas`
+      alert(mens)
     } else {
       alert("Hay datos invalidos en el formulario")
     }
